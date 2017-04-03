@@ -1,5 +1,6 @@
 {
   "vsicons.presets.angular": true,
   "editor.fontSize": 16,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib"
 }
