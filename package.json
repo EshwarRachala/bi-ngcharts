@@ -1,7 +1,11 @@
 {
-  "name": "tst",
+  "name": "bi-ngcharts",
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "eshwarrachala",
+    "email": "eshwar.appdev@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
