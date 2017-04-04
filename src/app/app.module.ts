@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { SampleModule } from 'bluebi-charts';
+import { SampleModule } from '@bluebicharts/core';
 
 @NgModule({
   declarations: [
