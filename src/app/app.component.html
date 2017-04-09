@@ -1,8 +1,22 @@
-<h1>
-  {{title}}
-</h1>
-<bar-chart></bar-chart>
-
-<chart [values]="[1000, 25000, 3000000, 120000, 25, 10203]"></chart>
-
-<bubbles [values]="[1000, 25000, 3000000, 120000, 25, 10203]"></bubbles>
+<div class="cotainer">
+  <div class="page-header">
+    <h1>
+      D3 chart components
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col">
+      <bar-chart></bar-chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <chart [values]="[1000, 25000, 3000000, 120000, 25, 10203]"></chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <bubbles [values]="[10000, 25000, 3000000, 120000, 24565, 552203]"></bubbles>
+    </div>
+  </div>
+</div>

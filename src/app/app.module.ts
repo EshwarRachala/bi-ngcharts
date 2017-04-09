@@ -9,6 +9,7 @@ import { ChartComponent } from './chart.component';
 
 import { SharedModule } from '@bluebi/core';
 
+
 @NgModule({
   declarations: [
     AppComponent,
