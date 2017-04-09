@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { SampleModule } from '@bluebicharts/core';
+import { SharedModule } from '@bluebi/core';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { SampleModule } from '@bluebicharts/core';
     BrowserModule,
     FormsModule,
     HttpModule,
-    SampleModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
