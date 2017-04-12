@@ -7,16 +7,12 @@ import { ChartConfig } from './config.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  data: any[] = [{ 'name': 'peter', 'age': 34 }, { 'name': 'jason', 'age': 28 }];
-  margin: any = { left: 120, right: 40, top: 5, bottom: 30 };
-  width = 300;
-  height = 200;
-  config: any;
-
-  constructor() {
-    this.config = {
-      settings: { fill: 'red' },
-      dataset: [{ text: 'peter', value: 34 }, { text: 'jason', value: 28 }]
-    };
-  }
+  settings = { fill: 'steelblue' };
+  dataset = [
+    { text: 'a', value: .5 },
+    { text: 'b', value: .9 },
+    { text: 'c', value: 1.0 },
+    { text: 'd', value: 2.0 },
+    { text: 'e', value: 0.4 },
+    { text: 'f', value: .2 }];
 }
