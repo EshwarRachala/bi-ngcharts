@@ -5,18 +5,14 @@
     </h1>
   </div>
   <div class="row">
-    <div class="col">
-      <bar-chart></bar-chart>
+    <div class="col-md-4">
+      <area-chart [config]="config"></area-chart>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <chart [values]="[1000, 25000, 3000000, 120000, 25, 10203]"></chart>
+    <div class="col-md-4">
+      <area-chart [config]="config"></area-chart>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <bubbles [values]="[10000, 25000, 3000000, 120000, 24565, 552203]"></bubbles>
+    <div class="col-md-4">
+      <area-chart [config]="config"></area-chart>
     </div>
   </div>
 </div>

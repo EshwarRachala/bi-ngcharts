@@ -7,7 +7,7 @@ import { BubblesComponent } from '@bluebi/core';
 @Component({
   // tslint:disable-next-line:component-selector
   selector: 'chart',
-  template: '<svg #target width="900" height="300"></svg>'
+  template: '<svg #target width="300" height="200"></svg>'
 })
 
 export class ChartComponent implements OnChanges, AfterViewInit {
