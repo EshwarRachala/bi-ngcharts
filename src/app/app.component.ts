@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ChartConfig } from './config.component';
+import { ChartService } from 'ng2charts';
+import { BarData, LineData } from './shared/data';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,18 @@ import { ChartConfig } from './config.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  settings = { fill: 'steelblue' };
-  dataset = [
-    { text: 'a', value: .5 },
-    { text: 'b', value: .9 },
-    { text: 'c', value: 1.0 },
-    { text: 'd', value: 2.0 },
-    { text: 'e', value: 0.4 },
-    { text: 'f', value: .2 }];
+
+  chart: ChartService;
+  settings: any;
+  dataset: any;
+  linechart: any;
+
+  constructor(chartService: ChartService) {
+    this.chart = chartService;
+    this.settings = { fill: 'steelblue' };
+    this.dataset = BarData;
+
+    this.linechart = LineData;
+  }
+
 }
